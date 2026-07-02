@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="All online courses by Eng. Tariq Zeyad - Web Development, Design, AI, Cloud Computing, and more.">
+  <title>All Courses | NovaLearn by Eng. Tariq Zeyad</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span><i class="fas fa-phone"></i> +970 59 123 4567</span>
+        <span><i class="fas fa-envelope"></i> tariq.zeyad@novalearn.com</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="page-header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><i class="fas fa-graduation-cap"></i></div>
+        <div class="logo-text">
+          <span class="logo-name">Nova<span class="highlight">Learn</span></span>
+          <span class="logo-tagline">by Eng. Tariq Zeyad</span>
+        </div>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="courses.html" class="nav-link active">Courses</a></li>
+          <li><a href="about.html" class="nav-link">About Me</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li><a href="faq.html" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="btn-icon search-trigger"><i class="fas fa-search"></i></button>
+        <button class="btn-icon"><i class="fas fa-shopping-cart"></i><span class="cart-badge">2</span></button>
+        <button class="btn-icon" id="themeToggle"><i class="fas fa-sun"></i></button>
+        <a href="enroll.html" class="btn btn-primary">Enroll Now</a>
+        <button class="mobile-menu-toggle"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- PAGE HEADER -->
+    <section class="page-header-section">
+      <div class="container">
+        <h1>All Courses</h1>
+        <p>Learn from industry expert Eng. Tariq Zeyad</p>
+      </div>
+    </section>
+
+    <!-- FILTERS -->
+    <div class="filters-bar">
+      <div class="container">
+        <div class="filter-wrapper">
+          <button class="filter-btn active" data-filter="all">All Courses</button>
+          <button class="filter-btn" data-filter="Development">Development</button>
+          <button class="filter-btn" data-filter="Design">Design</button>
+          <button class="filter-btn" data-filter="Data Science">Data Science</button>
+          <button class="filter-btn" data-filter="Cloud">Cloud</button>
+          <button class="filter-btn" data-filter="Marketing">Marketing</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- COURSES GRID -->
+    <section class="courses-grid-section">
+      <div class="container">
+        <div class="course-grid">
+          <article class="course-card" data-category="Development">
+            <div class="course-card-image">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" alt="Full Stack Web Development" loading="lazy">
+              <span class="course-badge">Bestseller</span>
+            </div>
+            <div class="course-card-body">
+              <div class="course-category">Development</div>
+              <h3>Full Stack Web Development Bootcamp</h3>
+              <p style="color:var(--text-secondary);font-size:0.85rem;">by Eng. Tariq Zeyad</p>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 12 weeks</span>
+                <span><i class="fas fa-signal"></i> All Levels</span>
+              </div>
+              <div class="course-card-footer">
+                <div class="course-price"><span class="old-price">$199</span> $129</div>
+                <div class="course-rating"><i class="fas fa-star"></i> 4.9 (2,847)</div>
+              </div>
+            </div>
+          </article>
+          <article class="course-card" data-category="Design">
+            <div class="course-card-image">
+              <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop" alt="UI/UX Design" loading="lazy">
+              <span class="course-badge hot">Hot</span>
+            </div>
+            <div class="course-card-body">
+              <div class="course-category">Design</div>
+              <h3>UI/UX Design Masterclass</h3>
+              <p style="color:var(--text-secondary);font-size:0.85rem;">by Eng. Tariq Zeyad</p>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 8 weeks</span>
+                <span><i class="fas fa-signal"></i> Intermediate</span>
+              </div>
+              <div class="course-card-footer">
+                <div class="course-price"><span class="old-price">$159</span> $99</div>
+                <div class="course-rating"><i class="fas fa-star"></i> 4.8 (1,823)</div>
+              </div>
+            </div>
+          </article>
+          <article class="course-card" data-category="Development">
+            <div class="course-card-image">
+              <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop" alt="Flutter Development" loading="lazy">
+              <span class="course-badge">New</span>
+            </div>
+            <div class="course-card-body">
+              <div class="course-category">Development</div>
+              <h3>Mobile App Development with Flutter</h3>
+              <p style="color:var(--text-secondary);font-size:0.85rem;">by Eng. Tariq Zeyad</p>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 10 weeks</span>
+                <span><i class="fas fa-signal"></i> Beginner</span>
+              </div>
+              <div class="course-card-footer">
+                <div class="course-price"><span class="old-price">$179</span> $119</div>
+                <div class="course-rating"><i class="fas fa-star"></i> 4.7 (1,456)</div>
+              </div>
+            </div>
+          </article>
+          <article class="course-card" data-category="Data Science">
+            <div class="course-card-image">
+              <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600&h=400&fit=crop" alt="Python Data Science" loading="lazy">
+              <span class="course-badge">Bestseller</span>
+            </div>
+            <div class="course-card-body">
+              <div class="course-category">Data Science</div>
+              <h3>Python for Data Science & AI</h3>
+              <p style="color:var(--text-secondary);font-size:0.85rem;">by Eng. Tariq Zeyad</p>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 14 weeks</span>
+                <span><i class="fas fa-signal"></i> All Levels</span>
+              </div>
+              <div class="course-card-footer">
+                <div class="course-price"><span class="old-price">$219</span> $139</div>
+                <div class="course-rating"><i class="fas fa-star"></i> 4.9 (3,210)</div>
+              </div>
+            </div>
+          </article>
+          <article class="course-card" data-category="Cloud">
+            <div class="course-card-image">
+              <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop" alt="AWS Cloud" loading="lazy">
+              <span class="course-badge hot">Hot</span>
+            </div>
+            <div class="course-card-body">
+              <div class="course-category">Cloud</div>
+              <h3>Cloud Computing with AWS</h3>
+              <p style="color:var(--text-secondary);font-size:0.85rem;">by Eng. Tariq Zeyad</p>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 10 weeks</span>
+                <span><i class="fas fa-signal"></i> Advanced</span>
+              </div>
+              <div class="course-card-footer">
+                <div class="course-price"><span class="old-price">$249</span> $149</div>
+                <div class="course-rating"><i class="fas fa-star"></i> 4.8 (987)</div>
+              </div>
+            </div>
+          </article>
+          <article class="course-card" data-category="Marketing">
+            <div class="course-card-image">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Digital Marketing" loading="lazy">
+            </div>
+            <div class="course-card-body">
+              <div class="course-category">Marketing</div>
+              <h3>Digital Marketing Mastery</h3>
+              <p style="color:var(--text-secondary);font-size:0.85rem;">by Eng. Tariq Zeyad</p>
+              <div class="course-meta">
+                <span><i class="fas fa-clock"></i> 6 weeks</span>
+                <span><i class="fas fa-signal"></i> Beginner</span>
+              </div>
+              <div class="course-card-footer">
+                <div class="course-price"><span class="old-price">$139</span> $89</div>
+                <div class="course-rating"><i class="fas fa-star"></i> 4.6 (2,340)</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col"><div class="footer-logo"><i class="fas fa-graduation-cap"></i> Nova<span style="color:var(--primary-light);">Learn</span></div><p>Built with passion by <strong>Eng. Tariq Zeyad</strong>.</p></div>
+        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="courses.html">Courses</a></li><li><a href="about.html">About</a></li></ul></div>
+        <div class="footer-col"><h4>Categories</h4><ul><li><a href="#">Development</a></li><li><a href="#">Design</a></li><li><a href="#">Data Science</a></li></ul></div>
+        <div class="footer-col"><h4>Contact</h4><p style="color:rgba(255,255,255,0.6);"><i class="fas fa-map-marker-alt"></i> Palestine - Gaza Strip</p></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2025 NovaLearn | <strong>Eng. Tariq Zeyad</strong></p></div>
+    </div>
+  </footer>
+
+  <!-- SEARCH OVERLAY -->
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-container">
+      <input type="text" placeholder="Search courses..." class="search-input">
+      <button class="search-close"><i class="fas fa-times"></i></button>
+    </div>
+  </div>
+
+  <button class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+</html>
