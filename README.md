@@ -167,7 +167,7 @@ Go to `courses.html` and copy a course card template inside the `course-grid` di
 
 </div>
 ```
-Demo : https://tariq-zeyad.github.io/Online-Courses-Platform/
+Demo :https://github.com/Tariq-Zeyad/Online-Courses-Platform
 ```
 
 
