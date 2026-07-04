@@ -166,13 +166,9 @@ Go to `courses.html` and copy a course card template inside the `course-grid` di
 ![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 
 </div>
-<<<<<<< HEAD
 ```
 Demo : https://tariq-zeyad.github.io/Online-Courses-Platform/
 ```
-=======
 
-## 📜 License
 
-This project is licensed under the MIT License.
->>>>>>> c6c3af6 (Add README.md)
+
